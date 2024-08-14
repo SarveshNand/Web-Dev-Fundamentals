@@ -1,0 +1,33 @@
+*{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+#intro{
+    height: 20%;
+    width: 100%;
+    background-color: bisque;
+}
+#intro h1{
+    font-size: 60px;
+    letter-spacing: -1px;
+    line-height: 55px;
+    padding: 10px;
+}
+#place{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
