@@ -1,4 +1,4 @@
-Synchronous JS
+# Synchronous JavaScript
 ------------------------------------------------------------------------------------------------------------------------------
 Higher Order Functions --> They are the functions which accept a function in a Parameter or Return a Function or Both.
 | Aisa function jo accept karle ek aur function ya fir wo return karde ek aur function
@@ -168,3 +168,5 @@ Pure & Impure Functions -->
                     2) It will never change/update the value of a global variable.
 
     Impure Function: The Functions which doesn't follows the rules of Pure Functions are Impure Functions.
+
+[EOF]
