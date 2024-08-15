@@ -20,22 +20,47 @@ lists::
 
 forms and inputs::
 
-    <form>
-        <input type = "text" placeholder = "name">
+    <form action = "" method = "GET">
+        <label for = "fname"> Name </label> <br>
+
+        <input type = "text" placeholder = "name" id = "fname">
+
         <input type = "email" placeholder = "email">
         <input type = "password" placeholder = "password">
         <input type = "date">
         <input type = "checkbox">
+        <input type = "week" name = "" id = "">
+        <input type = "reset" value = "reset">
+
         <br>
+
+        <select name = "editors" id = "" multiple>
+            <option value = "vscode">VS Code</option>
+            <option value = "sublime">Sublime</option>
+        </select>
+
+        <br>
+
         <input name = "gender" type = "radio">male
         <input name = "gender" type = "radio">female
         <input name = "gender" type = "radio">others
+
         <br>
+
+        <input type = "hidden" name = "">
         <input type = "range">
         <input type = "color">
         <input type = "file">
         <input type = "submit" value = "Login">
     </form>
+
+HTML Media::
+
+    <video width = "320" height = "240" controls muted autoplay>
+        <source src = "../../abcd.mp4">
+    </video>
+
+    <audio src = ""></audio>
 
 understand live server
 
