@@ -1,3 +1,5 @@
+# CASCADING STYLE SHEET [CSS]
+
 understanding css - styling
 
 making css file
@@ -33,3 +35,5 @@ understanding position absolute
 understanding position relative
 
 understanding flexbox --> width (justify-content), height (align-items)
+
+[EOF]

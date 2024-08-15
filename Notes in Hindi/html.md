@@ -1,3 +1,5 @@
+# HYPER TEXT MARKUP LANGUAGE [HTML]
+
 make html file
 
 make boilerplate code
@@ -79,3 +81,5 @@ understand div  --> ek rectangle jiski width hoti hai par height nahi hoti --> d
 understand id --> #
 
 understand class --> .
+
+[EOF]
