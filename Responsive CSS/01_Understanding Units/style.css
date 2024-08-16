@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width:100%;
+}
+/* #box{
+    height: 50vh;
+    width: 60vw;
+    background-color: brown;
+}
+#inner{
+    height: 40vh;
+    width: 50vw;
+    background-color: aqua;
+}
+h1{
+    background-color: blue;
+    height: 30vh;
+    width: 40vw;
+    font-size: 10vw;
+}
+h2{
+    background-color: bisque;
+    font-size: 12vmax;
+}
+h3{
+    background-color: azure;
+    font-size: 11vmin;
+} */
+
+
+
+#parent {
+    background-color: aquamarine;
+    width: 40%;
+    font-size: 40px;
+}
+#parent h1{
+    font-size: 1rem;
+}
+#parent h2{
+    font-size: 1em;
+}
+#parent h3{
+    font-size: 1.5em;
+}

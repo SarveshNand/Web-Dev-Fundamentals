@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.parent{
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+}
+.child1{
+    height: 100px;
+    width: 100px;
+    background-color: crimson;
+    border: 5px solid black;
+}
+.child2{
+    height: 100px;
+    width: 100px;
+    background-color: crimson;
+    border: 5px solid black;
+}
