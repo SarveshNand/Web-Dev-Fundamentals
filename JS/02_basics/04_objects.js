@@ -47,10 +47,34 @@ const users = [
 ]
 
 users[1].email
-console.log(instaUser);
+// console.log(instaUser);
 
-console.log(Object.keys(instaUser));
-console.log(Object.values(instaUser));
-console.log(Object.entries(instaUser));
+// console.log(Object.keys(instaUser));
+// console.log(Object.values(instaUser));
+// console.log(Object.entries(instaUser));
 
-console.log(instaUser.hasOwnProperty('isLoggedIn'));
+// console.log(instaUser.hasOwnProperty('isLoggedIn'));
+
+
+const course = {
+    coursename: "JS in hindi",
+    price: "999",
+    courseInstructor: "HiteshChoudhary"
+}
+
+// course.courseInstructor
+
+
+const {courseInstructor:instructor} = course
+
+// console.log(courseInstructor);
+console.log(instructor);
+
+
+// JSON -->         (for APIs [Application Program Interface])
+// {
+//     "name": "sarvesh",
+//     "coursename": "JS in hindi",
+//     "price": "free"
+// }
+
