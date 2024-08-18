@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Matemasie', sans-serif;
+}
+
+.main {
+    height: 100px;
+    width: 100%;
+    position: relative;
+}
+
+nav {
+    height: 100px;
+    width: 100%;
+    padding: 0 5vw;
+    display: flex;
+    align-items: center;
+    border-top: 25px solid white;
+    /* border-bottom: 2px solid #dadada; */
+    justify-content: space-between;
+}
+
+.others {
+    display: flex;
+    align-items: center;
+    gap: 4vw;
+}
+
+nav h4 {
+    font-size: 2vw;
+    font-weight: lighter;
+}
+
+nav i {
+    font-size: 5vw;
+}
+
+.others i {
+    display: none;
+}
+
+nav button {
+    padding: 0.7vw 1.3vw;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #fff;
+    background-color: aquamarine;
+    font-size: 1.4vw;
+    border: none;
+}
+
+nav button:hover {
+    color: lightseagreen;
+    background-color: aqua;
+}
+
+.content {
+    height: calc(100% - 100px);
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.left {
+    height: 100%;
+    width: 55%;
+    padding: 5vw 4vw;
+}
+
+.left header {
+    font-size: 1.5vw;
+    line-height: 3vw;
+}
+
+.left strong {
+    color: #C65043;
+}
+
+.left p {
+    font-size: 1.5vw;
+    font-weight: 600;
+    color: #666;
+    width: 85%;
+    margin-top: 2vw;
+    margin-bottom: 1vw;
+}
+.left h2{
+    margin-top: 2vw;
+    margin-bottom: 1vw;
+}
+
+.content button {
+    font-size: 1.5vw;
+    padding: 1vw 2vw;
+    background-color: #C65043;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 2vw;
+    font-weight: 700;
+}
+
+.right {
+    height: 100%;  /* Ensure container takes full height of parent */
+    width: 45%;    /* Adjust width as needed */
+    display: flex;
+    align-items: center; /* Center image vertically */
+    justify-content: center; /* Center image horizontally */
+    background-color: #f0f0f0; /* Optional: Background color for visibility */
+}
+
+.right img {
+    max-width: 100%; /* Ensure the image scales down to fit container */
+    height: auto;    /* Maintain the image's aspect ratio */
+    display: block;  /* Ensure image is rendered as a block element */
+    margin-top: 40vw;
+}
+@media (max-width:768px) {
+    nav {
+        height: 70px;
+        padding: 0 4vw;
+    }
+    nav button{
+        font-size: 2vw;
+    }
+    nav h4{
+        font-size: 2.2vw;
+    }
+    nav i{
+        font-size: 3.5vw;
+    }
+    .left{
+        width: 100%;
+    }
+    .left header{
+        font-size: 2.5vw;
+        line-height: 6vw;
+        margin-bottom: 2vw;
+    }
+    .left p{
+        font-size: 3.5vw;
+        line-height: 4.2vw;
+    }
+    .left h2{
+        font-size: 2vh;
+    }
+    .content{
+        height: calc(100% - 70px);
+        flex-direction: column;
+    }
+    .content button{
+        font-size: 3vh;
+    }
+    .right {
+        margin-top: 60vh;
+        height: 55%;
+        width: 100%;
+    }
+}
+@media (max-width:600px) {
+    nav {
+        height: 70px;
+        padding: 2vw 4vw;
+    }
+    .others i{
+        display: block;
+    }
+    nav button{
+        margin-right: -5vw;
+        margin-top: 2vw;
+        padding: 1.5vw ;
+        font-size: 3vw;
+        /* display: none; */
+    }
+    nav h4{
+        font-size: 3vw;
+        display: none;
+    }
+    nav i{
+        margin-top: 2vw;
+        margin-left: 6vw;
+        font-size: 5.5vw;
+    }
+    .left{
+        width: 100%;
+    }
+    .left header{
+        font-size: 3.5vw;
+        line-height: 6.7vw;
+        margin-bottom: 2vw;
+    }
+    .left p{
+        font-size: 3.7vw;
+        line-height: 4.7vw;
+    }
+    .left h2{
+
+        font-size: 3vh;
+    }
+    .content{
+        height: calc(100% - 70px);
+        flex-direction: column;
+    }
+    .content button{
+        margin-top: 2vh;
+        font-size: 3vh;
+    }
+    .right {
+        margin-top: 60vh;
+        height: 55%;
+        width: 100%;
+    }
+}
