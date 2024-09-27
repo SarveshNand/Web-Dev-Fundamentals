@@ -1,4 +1,6 @@
-const apiKey = "2c67c23eee4cbfb4f7e03bed6a56425d";
+// make your token by using api of openweathermap.org or some other open source resource and that will become your apiKey.
+
+const apiKey = "########################";
 const apiUrl = "https://api.openweathermap.org/data/2.5/weather?&units=metric&q=";
 
 const searchBox = document.querySelector(".search input");
